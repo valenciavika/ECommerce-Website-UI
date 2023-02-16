@@ -1,0 +1,418 @@
+@media screen and (min-width:1000px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    
+    .admin p{
+        font-size: 30px;
+        font-family: Arial;
+        margin: 10px;
+    }
+    
+    .admin img{
+        width: 15%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    
+    .admin{
+        background-color: #f25f5fe7;
+        display: flex;
+        top: 0;
+        margin-top: 10px;
+        width: 680px;
+        padding: 20px;
+        
+    }
+    
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+    .header img{
+        margin-left: 30px;
+        width: 120px;
+    }
+    
+    
+    .send-button input{
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .container-atas{
+        border: 2px solid #dedede;
+        border-radius: 5px;
+        padding: 40px;
+        width: max-content;
+        border-color: #ccc;
+        background-color: #ddd;
+        margin-left: 25rem;
+    }
+
+    .container{
+        border: 2px solid #dedede;
+        background-color: #f7b7ba;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px 0;
+        width: max-content;
+    }
+    
+    .gambar{
+        display: block;
+        padding: 20px;
+        background-color: #ffffff;
+        
+    }
+
+    .body-text-message{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+    }
+
+    .button{
+        margin-right: 30px;
+    }
+
+    .button a{
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+    
+    .txt, .sosmed{
+        padding: 20px; 
+    }
+    
+    .text-input{
+        background-color: #eed0d0;
+        padding:5px;
+        margin-bottom: 5px;
+        margin-top: 20rem;
+    }
+    
+    .buyer{
+        border-color: #ccc;
+        background-color: #ffffff;
+        margin-left: 27rem;
+    }
+    
+    .time-right {
+        float: right;
+        color: #aaa;
+      }
+    
+    .time-left {
+        float: left;
+        color: #999;
+    }
+    
+    .message-box{
+        width: 100%;
+    }
+    
+    .message-box input{
+        padding: 5px;
+    }
+    
+    input{
+        width: 95%;
+    }
+    
+    .chat{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    button{
+        font-size: 20px;
+        height: 24px;
+        justify-content: center;
+    }
+    
+    .tengah{
+        align-items: center;
+        justify-content: center;
+    }
+    .chatbox{
+        margin: auto;
+        align-items: center;
+        width: fit-content;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .container-box{
+        margin: bottom 10px;
+        width: 700px;
+        max-height: fit-content;
+        background-color: rgb(244, 244, 244);
+        padding: 10px;
+    }
+    
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+    
+    .footer-text{
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .txt, .sosmed{
+        padding: 15px; 
+    }
+
+    .footer a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer img{
+        width: 25px;
+    }
+    
+    .footer-sosmed{
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+}
+
+@media screen and (max-width: 999px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    .chat input{
+        font-size: 1.5vw;
+    }
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .header img{
+        margin-left: 5px;
+        width: 11%;
+    }
+    
+    .button{
+        margin-right: 5px;
+        width: 70%;
+        text-align: right;
+    }
+    
+    .button a{
+        color: white;
+        font-size: 2vw;
+        margin-right: 3%;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+    
+    .footer-text{
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .txt, .sosmed{
+        padding: 10px;
+        
+    }
+    
+    .footer a{
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer img{
+        width: 3.5vw;
+    }
+    
+    .footer-sosmed{
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .admin p{
+        font-size: 3vw;
+        font-family: Arial;
+        margin: 10px;
+    }
+    
+    .admin img{
+        width: 15%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    
+    .send-button input{
+        width: 9vw;
+        padding: 5px;
+    }
+    
+    .gambar{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        background-color: white;
+        width: 45%;
+        padding: 2%;
+        margin-bottom: 2%;
+        
+    }
+
+    .gambar img{
+        width: 70%;
+    }
+    
+    .body-text-message{
+        display: flex;
+        flex-direction: column;
+
+        align-items:flex-end;
+    }
+
+    .buyer{
+        border-color: #ccc;
+        background-color: #ffffff;
+        width: 40%;
+        margin-bottom: 2%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .seller{
+        width: 42.5%;
+        background-color: #f7b7ba;
+        padding: 2%;
+        border-radius: 10px;
+        margin-bottom: 40%;
+
+    }
+    
+    .time-right {
+        float: right;
+        color: #aaa;
+
+      }
+    
+    .time-left {
+        float: left;
+        color: #999;
+    }
+    
+    #text{
+        width: 80%;
+        padding: 1%;
+    }
+    .send-button{
+        width: 15%;
+        padding: 1%;
+    }
+    
+    .chat{
+        display: flex;
+        justify-content: space-between;
+        background-color: #f7b7ba;
+        padding: 1%;
+    }
+    
+    button{
+        font-size: 20px;
+        height: 24px;
+        justify-content: center;
+    }
+    
+    .tengah{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chatbox{
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5vw;
+    }
+    
+    .container-box{
+        margin: bottom 10px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        max-height: fit-content;
+        background-color: rgb(244, 244, 244);
+        padding: 20px;
+    }
+
+    .admin{
+        background-color: #f25f5fe7;
+        display: flex;
+        margin-top: 10px;
+        width: 60%;
+        padding: 20px;
+       
+}
+}

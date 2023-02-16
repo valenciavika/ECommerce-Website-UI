@@ -1,0 +1,451 @@
+@media screen and (min-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .header img{
+        margin-left: 30px;
+        width: 120px;
+    }
+
+    .button{
+        margin-right: 30px;
+    }
+    .button a{
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-text{
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .txt, .sosmed{
+        padding: 15px; 
+    }
+
+    .footer a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+    
+
+    .footer img{
+        width: 25px;
+    }
+
+    .footer-sosmed{
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .produk img{
+        width: 120px;
+        height: 100px;
+    }
+    .content{
+        background-color:white;
+    }
+
+    .kotak{
+        background-color: #f5f5f5 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        border-radius: 5px 0 0 5px;
+        text-align: center;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+    }
+
+    .judul{
+        padding: 2%;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .produk{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        border-bottom: 1px black solid ;
+        padding: 2%;
+    }
+
+    .delete{
+        border: none;
+    }
+
+    .chckout{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+        
+        padding: 15px;
+    }
+
+    .var{
+        color:rgb(153, 153, 153);
+    }
+    .crt{
+        width: 300px;
+    }
+    #txt{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .prc{
+        border-top: solid 4px white;
+        margin-top: 10%;
+        color: white;
+        
+    }
+
+    .st{
+        font-size: 12px;
+    }
+
+    .price{
+        display: flex;
+        width: 100px;
+    }
+
+
+    #checkBut{
+        border: 0.7px solid #fa777e;
+        background-color: #f5f5f5;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 100px;
+        
+        
+    } 
+
+    #checkBut p{
+        color: #fa777e;
+    }
+
+
+    .qty{
+        width: 50px;
+    }
+
+    input[type="checkbox"]:checked{
+        accent-color: #fa777e;
+    }
+
+    .kotakluar{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .kotak2{
+        display: flex;
+        padding: 0px;
+        width: 300px;
+        background-color: #f7b7ba;
+        border-radius: 0 5px 5px 0;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+
+    }
+
+    .keterangan{
+        display: flex;
+        padding-top: 2%;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        border-bottom: solid 0.2vh;
+    }
+
+    .prd{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:999px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .header img{
+        margin-left: 5px;
+        width: 11%;
+    }
+
+    
+    
+    .button{
+        margin-right: 5px;
+        width: 70%;
+        text-align: right;
+    }
+    
+    .button a{
+        color: white;
+        font-size: 2vw;
+        margin-right: 3%;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+    
+    .footer-text{
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .txt, .sosmed{
+        padding: 10px;
+        
+    }
+    
+    .footer a{
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+    
+    .footer img{
+        width: 100%;
+    }
+    
+    .footer-sosmed{
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .produk img{
+        width: 20%;
+        height: 60%;
+    }
+    .content{
+        background-color:white;
+    }
+    .kotak{
+        background-color: #f5f5f5 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 5px 5px 0 0 ;
+        text-align: center;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        border-left: 1px solid;
+
+    }
+    .judul{
+        padding: 2%;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: 5vw;
+    }
+
+    
+    .produk{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        border-bottom: 1px black solid ;
+    }
+
+    .kotak p{
+        font-size: 2vw;
+    }
+    .delete{
+        border: none;
+    }
+
+    .qty{
+        margin-bottom: 5%;
+    }
+    .chckout{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+        padding: 15px;
+    }
+
+    .var{
+        color:rgb(153, 153, 153);
+    }
+    .crt{
+        width: 300px;
+    }
+
+    .kotak2 img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 20%;
+    }
+    #txt{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 3vw;
+    }
+    .prc{
+        border-top: solid 4px white;
+        margin-top: 10px;
+        color: white;
+        
+    }
+
+    .price{
+        display: flex;
+        width: 20%;
+    }
+
+
+    #checkBut{
+        border: 0.7px solid #fa777e;
+        background-color: #f5f5f5;
+        padding: 2%;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 1px;
+
+    } 
+
+    .st{
+        font-size: 1.5vw;
+    }
+
+    #checkBut p{
+        color: #fa777e;
+    }
+
+
+    .qty{
+        width: 50px;
+    }
+
+    input[type="checkbox"]:checked{
+        accent-color: #fa777e;
+    }
+
+    .kotakluar{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .kotak2{
+        display: flex;
+        width: 90%;
+        background-color: #f7b7ba;
+        border-radius: 0 0 5px 5px ;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+
+    }
+
+    .kotak2 img{
+        width: 10%;
+    }
+
+    .keterangan{
+        display: flex;
+        padding-top: 2%;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        border-bottom: solid 0.2vh;
+    }
+
+    .prd{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+
+}

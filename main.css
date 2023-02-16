@@ -1,0 +1,464 @@
+@media screen and (min-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .header img{
+        margin-left: 30px;
+        width: 120px;
+    }
+
+    .button{
+        margin-right: 30px;
+    }
+
+    .button a{
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+
+    .promo{
+        display: flex;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .promo img{
+        width: 100%;
+    }
+
+
+
+    .promo-button{
+        cursor: pointer;
+        padding: 40px;
+    }
+
+    #left{
+        width: 2%;
+        position: absolute;
+        left: 0;
+    }
+
+    #right{
+        width: 2%;
+        position: absolute;
+        right: 0;
+    }
+
+    .promo-container img{
+        display: flex;
+    }
+
+
+    .container{
+        background-color: #f5f5f5;
+        padding: 50px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    body p{
+        font-size: 1.5vw;
+    }
+    .all{
+        background-color: white;
+        padding: 5%;
+        border-radius: 10px;
+        
+    }
+
+    .all-cat{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+
+
+    .btn img{
+        width: 10px;
+        cursor: pointer;
+    }
+
+    .allcat{
+        background-color: white;
+        padding: 2%;
+        border-radius: 10px;
+        border: solid;
+        border-color: #cccccc;  
+        width: 30%;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .allcat img{
+        width: 60%;
+    }
+
+    .shoe, .pant, .clothe{
+        padding: 2%;
+    }
+
+    .-cat{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+    .cat{
+        background-color: #f5f5f5;
+        padding: 2%;
+        border-radius: 10px;
+        width: 20%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .shoe .cat img{
+        width: 80%;
+    }
+    .pant .cat img{
+        width: 80%;
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .price{
+        margin-top: 5px;
+        color: red;
+    }
+
+    .clothe .cat img{
+        width: 80%;
+    }
+
+
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+
+    .footer-text{
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .txt, .sosmed{
+        padding: 15px; 
+    }
+
+    .footer a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+
+    .footer img{
+        width: 25px;
+    }
+
+    .footer-sosmed{
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .dots{
+        text-align: center;
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+        background-color:#cccccc;       
+        margin: 0 2px;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.5s ease;
+    }
+    
+    .active{
+        background-color: #fa777e;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .header img{
+        margin-left: 5px;
+        width: 11%;
+    }
+    
+    .button{
+        margin-right: 5px;
+        width: 70%;
+        text-align: right;
+    }
+    
+    .button a{
+        color: white;
+        font-size: 2vw;
+        margin-right: 3%;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .button a:hover{
+        background-color: #ec5a61;
+    }
+
+    .promo{
+        display: flex;
+        padding: 5%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .promo img{
+        width: 100%;
+    }
+
+    #left{
+        width: 2%;
+        position: absolute;
+        left: 0;
+    }
+
+    #right{
+        width: 2%;
+        position: absolute;
+        right: 0;
+    }
+
+    
+    .promo-button{
+        cursor: pointer;
+        padding: 40px;
+
+    }
+    
+    .promo-container{
+        width: 50%;
+        background-color: black;
+    }
+    
+    
+    .container{
+        background-color: #f5f5f5;
+        padding: 50px;
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .all{
+        background-color: white;
+        padding: 5%;
+        border-radius: 10px;
+    }
+    
+    .all-cat{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .btn img{
+        width: 1%;
+        cursor: pointer;
+    }
+    
+    
+    .allcat{
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+        border: solid;
+        border-color: #cccccc;
+      
+        width: 25%;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .allcat img{
+        width: 60%;
+    }
+    
+    .-cat{
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .btn p{
+        font-size: 2vw;
+    }
+    
+    .cat{
+        background-color: #f5f5f5;
+        padding: 2%;
+        border-radius: 10px;
+        width: 20%;        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    body p{
+        font-size: 1.5vw;
+    }
+    .shoe .cat img{
+        width: 80%;
+    }
+    .pant .cat img{
+        width: 80%;
+    }
+    .name{
+        margin-top: 2%;
+    }
+    .price{
+        margin-top: 5px;
+        color: red;
+    }
+    
+    .clothe .cat img{
+        width: 70%;
+    }
+
+    .content{
+        width: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+    
+    .footer-text{
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .txt, .sosmed{
+        padding: 10px;
+        
+    }
+    
+    .footer a{
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    .footer a:hover{
+        background-color: #ec5a61;
+    }
+    
+    .footer img{
+        width: 3.5vw;
+    }
+    
+    .footer-sosmed{
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .dots{
+        text-align: center;
+    }
+    .dot{
+        height: 5px;
+        width: 5px;
+        background-color:#cccccc;
+        
+        
+        margin: 0 2px;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.5s ease;
+    }
+    
+    .active{
+        background-color: #fa777e;
+    }
+
+  }

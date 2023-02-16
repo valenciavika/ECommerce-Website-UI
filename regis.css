@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.header{
+    background-color: #fa777e;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    align-items: center;
+}
+
+.header img{
+    margin-left: 30px;
+    width: 120px;
+}
+
+.button{
+    margin-right: 30px;
+}
+
+.button a{
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button a:hover{
+    background-color: #ec5a61;
+}
+
+.Regispage{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55rem;
+    background-color: #f7b7ba;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+.contentPic img{
+    margin-top: 1px;
+}
+.contentPic{
+    padding-left: 70px;
+    padding-right: 110px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    border: 20px;
+    background-color: #f5f5f5 ;
+    padding: 10px 0px 60px 15px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.Signup{
+    color: black;
+    height: 455px;
+    width: 450px;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    padding-bottom: 10px;
+}
+
+.container input{
+    width: 92%;
+    border: solid 1px rgb(205, 205, 205);
+    border-radius: 5px;
+    padding: 7px ;
+    padding-top: 10;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h3{
+    color: rgb(73, 80, 103);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.containerCheck label{
+    line-height: 10px;
+    font-size: 15px;
+    color: #04047b;
+}
+
+.containerGender{
+    padding-bottom: 10px;
+}
+
+.containerSubmit input{
+    align-items: center;
+    padding: 2px;
+    width: 50%;
+    background-color: #f7b7ba;
+    border-radius: 8px;
+    border: none;
+    line-height: 30px;
+    color: black;
+}
+
+.containerSubmit input:hover {
+    background-color: #fa777e;
+}
+
+
+.footer{
+    background-color: #fa777e;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.footer-text{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt, .sosmed{
+    padding: 15px; 
+}
+
+.footer a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    background-color: #ec5a61;
+}
+
+.footer img{
+    width: 25px;
+}
+
+.footer-sosmed{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  @media(min-width :0px) and (max-width: 1000px){
+    .header{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .header img{
+        margin-left: 5px;
+        width: 11%;
+    }
+    
+    .button{
+        margin-right: 5px;
+        width: 70%;
+        text-align: right;
+    }
+    
+    .button a{
+        color: white;
+        font-size: 2vw;
+        margin-right: 3%;
+        text-decoration: none;
+    }
+
+    .Page{
+        display: contents;
+        justify-content: left;
+    }
+    
+    .Regispage{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+        justify-content: left;
+        background-color:#f7b7ba;
+    
+    }
+
+    .contentPic{
+        padding-left: 0;
+        padding-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .contentPic img{
+        margin-top: 10px;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .content{
+        width: auto;
+        margin-bottom: 110px;
+    }
+
+    .container{
+        margin-left: 40px;
+    }
+
+    .containerGender{
+        margin-left: 40px;
+    }
+    .containerCheck{
+        margin-left: 40px;
+    }
+
+    .container input{
+        width: 70%;
+        border: solid 1px rgb(205, 205, 205);
+        border-radius: 5px;
+        padding: 7px ;
+        padding-top: 10;
+    }
+
+    .gender{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    
+    .containerSubmit input{
+        align-items: center;
+        padding: 2px;
+        width: 50%;
+        background-color: #f7b7ba;
+        border-radius: 8px;
+        border: none;
+        line-height: 30px;
+        color: black;
+        margin-left: 40px;
+    }
+    
+    
+
+    .footer{
+        background-color: #fa777e;
+        display: flex;
+        justify-content: space-between;
+    
+        align-items: center;
+    }
+    
+    .footer-text{
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .txt, .sosmed{
+        padding: 10px;
+    }
+    
+    .footer a{
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    
+    
+    .footer img{
+        width:  3.5vw;
+    }
+    
+    .footer-sosmed{
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  }
