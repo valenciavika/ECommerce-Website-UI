@@ -1,7 +1,11 @@
 # ECommerce-Website-UI
-This is a HTML, CSS, Javascript code for e-commerce website. 
+This is a HTML, CSS, Javascript code for e-commerce website called BeliSkuy. 
 
-The website will consist 5 pages:
+Tools 
+- Adobe Photoshop
+- Virtual Studio Code
+
+The website will consist 5 pages with their HTML, CSS, and JS:
 - cart
 - gallery
 - chat
